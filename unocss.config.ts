@@ -3,7 +3,6 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
-  presetWebFonts,
   presetWind,
 } from 'unocss'
 
@@ -28,14 +27,11 @@ export default defineConfig({
       scale: 1.2,
     }),
     presetWind(),
-    presetWebFonts({
-      fonts: {
-        sans: 'Inter',
-        mono: 'DM Mono',
-      },
-    }),
   ],
   theme: {
+    fontFamily: {
+      self: 'mainfont',
+    },
     breakpoints: {
       xs: '320px',
       sm: '640px',

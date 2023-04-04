@@ -61,3 +61,10 @@ html.dark {
 ::-webkit-scrollbar-thumb:hover {
   background: #8886;
 }
+
+@font-face {
+  font-family: "mainfont";
+  src: url("/public/fonts/mainfont.otf");
+  font-weight: normal;
+  font-style: normal;
+}
